@@ -1,0 +1,89 @@
+<!doctype HTML>
+
+<head>
+<title>Nike NFT Gallery Quiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link href="css/Quiz.css" rel="stylesheet">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- GreenSock library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/CustomEase.min.js"></script>
+<!-- Lottie Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js" integrity="sha512-yAr4fN9WZH6hESbOwoFZGtSgOP+LSZbs/JeoDr02pOX4yUFfI++qC9YwIQXIGffhnzliykJtdWTV/v3PxSz8aw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+ 
+    <div class="overlay">
+        <form>
+            <div class="Search-bar">
+                <input type="text" placeholder="What are you looking for?.."> </form></div>
+                
+            <div class="closebtn">
+                <button type="submit"><i class="fa fa-search"></i></button></form></div>
+    
+    </div>
+
+        <div class="navigation">
+            <a id="lottie" href="https://www.nike.com/au/"></a>
+              <a href="Shoe_slider.html"> Gallery </a> 
+                <a href="NFT.html"> NFT </a> 
+                 <a href="Quiz.html"> Quiz </a> 
+                  <a class="openbtn" href="#">Search </a>
+        </div>
+    
+    <div class= "back_ground_graphic">
+   
+          
+          <div class="quiz">
+
+            <!-- *********** INTRODUCTION *********** -->
+            <div class="slide">
+             <div class="start">
+                 <img src="images/swimming_pool.png">
+
+             </div>
+               
+            </div>
+
+            <!-- *********** Q1 *********** -->
+            <div class="slide" data-question="q1">
+                <div class="question">What style are you?</div>
+                <div class="answer" data-answer="A">Bold</div>
+                <div class="answer" data-answer="B">Adventurous</div>
+                <div class="answer" data-answer="C">Daring</div>
+            </div>
+
+            <!-- *********** Q2 *********** -->
+            <div class="slide" data-question="q2">
+                <div class="question">Where would you rather be?</div>
+                <div class="answer" data-answer="A">Mountains</div>
+                <div class="answer" data-answer="B">Beach</div>
+                <div class="answer" data-answer="C">Flying</div>
+            </div>
+
+            <!-- *********** Q3 *********** -->
+            <div class="slide" data-question="q3">
+                <div class="question">Who is the greatest?</div>
+                <div class="answer" data-answer="A">Jordan</div>
+                <div class="answer" data-answer="B">Bolt</div>
+                <div class="answer" data-answer="C">Tyson</div>
+            </div>
+
+            <!-- *********** Q3 *********** -->
+            <div class="slide result-container">
+                <div class="result">REVEAL RESULT</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="JavaScript/Quiz.js"></script>
+
+
+</body>
