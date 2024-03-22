@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.overlay{
+    display: none;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top:67px;
+    z-index:1000;
+    position:fixed;
+    background-image:linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    width: 100%;
+    height:10%;
+    background-size: cover ;
+    }
+    
+.closebtn{
+    cursor: pointer;
+    margin-left: 10px;
+}
+.Search-bar input {
+    width: 350px;
+    font-size: 24px;
+    padding: 15px;
+}
+.Search-bar input:focus{
+    outline: none;
+    background-color: rgb(243, 247, 247);
+    border-radius: 20px;
+    border: none;
+}
+
+.overlay button{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background: #b6d5ee;
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(235, 232, 232);
+}
+.overlay button:hover {
+    background: #94e1e0;
+}
+    
+
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 100%;
+    position: absolute;
+    background-color:white;
+    outline: 1px solid black;
+}
+    
+.navigation a {
+
+    padding-right: 30px;
+    margin-top: 30px;
+    color: rgb(30, 28, 28);
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+}
+    
+.navigation a:hover {
+    background-color: rgba(56, 167, 184, 0.188);
+    height:10px;
+}
+
+#lottie {
+    margin-right: auto;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    margin-top: 0px;
+    padding-right: 0px;
+  
+}
+#lottie:hover {
+    background-color: white;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.back_ground_graphic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 1200px;
+    background-image: url("../images/Just\ do\ it_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -3;
+   
+}
+
+
+.container-day{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    letter-spacing: 5px;
+   
+}
+.countdown{
+	display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* text-align: left; */
+  
+}
+.countdown h1{
+   
+    font-size: 55px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(62, 59, 59); 
+}
+
+.countdown h2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.countdown a:hover{
+    font-size: 30px;
+    font-weight: 300;
+     text-decoration: none;
+}
+
+h3{
+    font-size:30px;
+    color: rgb(62, 59, 59);
+}
+
+/* .container-day h2{
+    font-size: 50px;
+    font-style: italic;
+    color: #e87217;
+} */
+.Time, .day, .hour, .minute, .second{
+  font-size:50px;
+   padding: 20px;
+   color: #676fcb;
+}
+.Shoe{
+ width: 100%;
+ height: 100%;
+}
+.Shoe img{
+    width:400px;
+    height: 300px;
+   
+}
